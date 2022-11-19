@@ -5,7 +5,6 @@ namespace Museando.Web.Models;
 public class ErrorViewModel
 {
 	public string? RequestId { get; set; }
-
 	public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
 
@@ -19,6 +18,5 @@ public class PecaViewModel
 public class NovoVideoViewModel
 {
 	[Required] public int PecaId { get; set; }
-
 	[Required] public string Link { get; set; }
 }
